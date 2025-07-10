@@ -1,0 +1,7 @@
+{
+  "welcome": "ReactとReact-i18nextへようこそ",
+  "description": {
+    "part1": "これは簡単な例です。",
+    "part2": "言語を変更できます。"
+  }
+}
