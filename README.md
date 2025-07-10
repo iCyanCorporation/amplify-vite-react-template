@@ -46,9 +46,7 @@ Ensure you have the following installed:
     ```
 
 3.  **Initialize Amplify**:
-    ```bash
-    amplify init
-    ```
+    Deploy on Amplify then download `amplify_outputs.json`
     Follow the prompts to configure your Amplify project.
 
 ## Project Structure
@@ -147,13 +145,13 @@ This template integrates [Shadcn UI](https://ui.shadcn.com/) components for a mo
 Shadcn UI components are added directly to your project, allowing for full control and customization. To add a new component, use the Shadcn UI CLI:
 
 ```bash
-npx shadcn-ui@latest add <component-name>
+npx shadcn@latest add <component-name>
 ```
 
 For example, to add the `Button` component:
 
 ```bash
-npx shadcn-ui@latest add button
+npx shadcn@latest add button
 ```
 
 Components are located in `src/components/ui/`.
